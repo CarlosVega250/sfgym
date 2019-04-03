@@ -1,6 +1,11 @@
-    <form id="form">
+
         <div class="row mensaje-arriba-agregar-clientes">
                 <div class="col-1 pr-0">
+
+    <form id="form" onsubmit="return false">
+            <div class="row mensajeAlert">
+                <div class="col-1">
+
                     <i class="material-icons">group</i>
                 </div>
                 <div class="col-11 pl-0 mt-1">
@@ -25,13 +30,13 @@
         <div class="fomr-group row mt-2">
                 <label class="col-sm-3 col-form-label text-right" >Apellido Materno: </label>
                 <div class="col-md-5">
-                    <input type="text" class="form-control rounded-pill" id="ap-marno">
+                    <input type="text" class="form-control rounded-pill" id="ap-marno" name="ap-marno">
                 </div>
         </div>
         <div class="fomr-group row mt-2">
             <label class="col-sm-3 col-form-label text-right" >Edad: </label>
             <div class="col-md-5">
-                <input type="text" class="form-control rounded-pill" id="edad">
+                <input type="text" class="form-control rounded-pill" id="edad" name="edad">
             </div>
         </div>
 
@@ -39,7 +44,7 @@
             <label class="col-sm-3 col-form-label text-right" >Sexo: </label>
             <div class="col-md-5">
                 
-                <select class="form-control form-control-lg rounded-pill" id="sexo">
+                <select class="form-control form-control-lg rounded-pill" id="sexo" name="sexo">
                     <option class="rounded-pill">Hombre</option>
                     <option class="rounded-pill">Mujer</option>
                 </select>
@@ -49,7 +54,7 @@
         <div class="fomr-group row mt-2">
                 <label class="col-sm-3 col-form-label text-right">Teléfono: </label>
                 <div class="col-md-5">
-                    <input type="text" class="form-control rounded-pill" id="telefono">
+                    <input type="text" class="form-control rounded-pill" id="telefono" name="telefono">
                 </div>
         </div>
  
@@ -62,14 +67,16 @@
         <div class="fomr-group row mt-2">
             <label class="col-sm-3 col-form-label text-right">Calle: </label>
             <div class="col-md-5">
-                <input type="text" class="form-control rounded-pill" id="calle">
+                <input type="text" class="form-control rounded-pill" id="calle" name="calle">
             </div>
             <div class="fomr-group row mt-2">
                 <div class="col-md-5 text-right">
                     <label>Num. Exterior:</label>
                 </div>
+
                 <div class="col-md-7 pl-0">
                     <input type="text" class="form-control rounded-pill" id="num-ext">
+
                 </div>
             </div>
         </div>
@@ -77,12 +84,13 @@
         <div class="fomr-group row mt-2">
             <label class="col-sm-3 col-form-label text-right">Num. Interior: </label>
             <div class="col-md-5">
-                <input type="text" class="form-control rounded-pill" id="calle">
+                <input type="text" class="form-control rounded-pill" id="num-int" name="num-int">
             </div>
             <div class="fomr-group row mt-2 arregla">
                 <div class="col-md-5 text-right">
                     <label>Colonia:</label>
                 </div>
+
                 <div class="col-md-7 pl-0">
                     <input type="text" class="form-control rounded-pill" id="colonia">
                 </div>

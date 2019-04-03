@@ -11,9 +11,9 @@
                     Todos los clientes
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <button class="dropdown-item" type="button">A</button>
-                    <button class="dropdown-item" type="button">B</button>
-                    <button class="dropdown-item" type="button">C</button>
+                    <button class="dropdown-item" type="button">Clientes inactivos</button>
+                    <button class="dropdown-item" type="button">Clientes activos</button>
+                    <button class="dropdown-item" type="button">Sin membresía</button>
                 </div>
             </div>
         </div>
@@ -32,24 +32,34 @@
                             <table class="table table-hover">
                                 <thead>
                                     <tr>
-                                        <th scope="col">Id Membresia</th>
+                                        <th scope="col">Id</th>
                                         <th scope="col">Nombre Cliente</th>
                                         <th scope="col">Teléfono</th>
                                         <th scope="col">Acciones</th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <tbody id="cuerpo-tabla-clientes">
                                     <tr>
-                                        <th scope="row">1</th>
-                                        <td>Nombre..........................</td>
-                                        <td>xxx.xxx.xxxx</td>
-                                        <td>xxx</td>
+                                        <th scope="row" class="id-td" id="1">1</th>
+                                        <td class="editable">Nombre..........................</td>
+                                        <td class="editable">xxx.xxx.xxxx</td>
+                                        <td>
+                                            
+                                                <i class="material-icons actions mr-2"> remove_red_eye</i>
+                                                <i class="material-icons actions mr-2 edit-action"> create</i>
+                                                <i class="material-icons actions mr-2"> delete</i>
+                                            
+                                        </td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">2</th>
+                                        <th scope="row" id="2">2</th>
                                         <td>Nombre</td>
                                         <td>xxx.xxx.xxxx</td>
-                                        <td>xxx</td>
+                                        <td>
+                                            <i class="material-icons actions mr-2"> remove_red_eye</i>
+                                            <i class="material-icons actions mr-2 edit-action"> create</i>
+                                            <i class="material-icons actions mr-2"> delete</i>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <th scope="row">3</th>

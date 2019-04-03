@@ -1,0 +1,94 @@
+<form id="form" onsubmit="return false">
+    <div class="row mensajeAlert">
+        <div class="col-1">
+            <i class="material-icons">group</i>
+        </div>
+        <div class="col-11">
+            <p>Nuevo Cliente</p>
+        </div>
+    </div>
+
+<div class="fomr-group row ">
+    <label class="col-sm-3 col-form-label text-right">Nombre: </label>
+    <div class="col-md-5">
+        <input type="text" class="form-control rounded-pill" id="nombre" name="nombre_cliente">
+    </div>
+</div>
+
+<div class="fomr-group row mt-2">
+    <label class="col-sm-3 col-form-label text-right">Apellido paterno: </label>
+    <div class="col-md-5">
+        <input type="text" class="form-control rounded-pill" id="ap-parno" name="ap-parno">
+    </div>
+</div>
+
+<div class="fomr-group row mt-2">
+        <label class="col-sm-3 col-form-label text-right" >Apellido Materno: </label>
+        <div class="col-md-5">
+            <input type="text" class="form-control rounded-pill" id="ap-marno">
+        </div>
+</div>
+<div class="fomr-group row mt-2">
+    <label class="col-sm-3 col-form-label text-right" >Edad: </label>
+    <div class="col-md-5">
+        <input type="text" class="form-control rounded-pill" id="edad">
+    </div>
+</div>
+
+<div class="fomr-group row mt-2">
+    <label class="col-sm-3 col-form-label text-right" >Sexo: </label>
+    <div class="col-md-5">
+        
+        <select class="form-control form-control-lg rounded-pill" id="sexo">
+            <option class="rounded-pill">Hombre</option>
+            <option class="rounded-pill">Mujer</option>
+        </select>
+    </div>
+</div>
+
+<div class="fomr-group row mt-2">
+        <label class="col-sm-3 col-form-label text-right">Teléfono: </label>
+        <div class="col-md-5">
+            <input type="text" class="form-control rounded-pill" id="telefono">
+        </div>
+</div>
+
+<br>
+<label>Dirección de contacto</label>
+<br>
+<div class="fomr-group row mt-2">
+    <label class="col-sm-3 col-form-label text-right">Calle: </label>
+    <div class="col-md-5">
+        <input type="text" class="form-control rounded-pill" id="calle">
+    </div>
+    <div class="fomr-group row mt-2">
+        <div class="col-md-5 text-right">
+            <label>Num. Exterior:</label>
+        </div>
+        <div class="col-md-7">
+            <input type="text" class="form-control rounded-pill" id="num-ext">
+        </div>
+
+    </div>
+</div>
+
+<div class="fomr-group row mt-2">
+    <label class="col-sm-3 col-form-label text-right">Num. Interior: </label>
+    <div class="col-md-5">
+        <input type="text" class="form-control rounded-pill" id="calle">
+    </div>
+    <div class="fomr-group row mt-2">
+        <div class="col-md-4 text-right">
+            <label>Colonia:</label>
+        </div>
+        <div class="col-md-8">
+            <input type="text" class="form-control rounded-pill" id="colonia">
+        </div>
+
+    </div>
+</div>    
+
+<button type="submit" id="guardar-cliente">Guardar</button>
+<button id="cancelar-cliente">Cancelar</button>
+
+</form>
