@@ -1,13 +1,13 @@
     <form id="form">
-            <div class="row mensajeAlert">
-                <div class="col-1">
+        <div class="row mensaje-arriba-agregar-clientes">
+                <div class="col-1 pr-0">
                     <i class="material-icons">group</i>
                 </div>
-                <div class="col-11">
-                    <p>Nuevo Cliente</p>
+                <div class="col-11 pl-0 mt-1">
+                    <p><b>Nuevo Cliente</b></p>
                 </div>
-            </div>
-        
+        </div>
+
         <div class="fomr-group row ">
             <label class="col-sm-3 col-form-label text-right">Nombre: </label>
             <div class="col-md-5">
@@ -54,8 +54,11 @@
         </div>
  
         <br>
-        <label>Dirección de contacto</label>            
+        <div class="col-sm-3 text-right">
+            <label>Dirección de contacto</label> 
+        </div>           
         <br>
+
         <div class="fomr-group row mt-2">
             <label class="col-sm-3 col-form-label text-right">Calle: </label>
             <div class="col-md-5">
@@ -65,10 +68,9 @@
                 <div class="col-md-5 text-right">
                     <label>Num. Exterior:</label>
                 </div>
-                <div class="col-md-7">
+                <div class="col-md-7 pl-0">
                     <input type="text" class="form-control rounded-pill" id="num-ext">
                 </div>
-
             </div>
         </div>
 
@@ -77,19 +79,21 @@
             <div class="col-md-5">
                 <input type="text" class="form-control rounded-pill" id="calle">
             </div>
-            <div class="fomr-group row mt-2">
-                <div class="col-md-4 text-right">
+            <div class="fomr-group row mt-2 arregla">
+                <div class="col-md-5 text-right">
                     <label>Colonia:</label>
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-7 pl-0">
                     <input type="text" class="form-control rounded-pill" id="colonia">
                 </div>
     
             </div>
         </div>    
         
-        <button type="submit" id="guardar-cliente">Guardar</button>
-        <button id="cancelar-cliente">Cancelar</button>
+        <div class="col-sm-12 text-right mt-4">
+            <button type="submit" id="guardar-cliente" class="btn btn-outline-success btn-sm my-2 my-sm-0 mr-3 rounded-pill">Guardar</button>
+            <button id="cancelar-cliente" class="btn btn-outline-success btn-sm my-2 my-sm-0 mr-3 rounded-pill">Cancelar</button>
+        </div>
 
     </form>
     

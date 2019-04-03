@@ -5,15 +5,13 @@
     padding: 0.5rem;
     margin: 0px;
 }
-.btn {
-    width: 150px;
-}
-.btn-drop{
-    width: 165px;
-    border-radius: 15px;
+
+.btn{
     background-color: #FFFF;
     color: black;
 }
+
+
 
 .search{
     width: 300px;
@@ -76,4 +74,19 @@ hr{
 }
 .mensajeAlert{
     float: none;
+}
+
+form{
+    background: #FFFF;
+    padding: 10px;
+    border-radius: 15px;
+    border: #6a6a6a solid 1px;
+}
+
+.mensaje-arriba-agregar-clientes i{
+    font-size: 30px;
+    color: #54ad58;
+}
+.arregla{
+    margin-left: 1px;
 }
